@@ -2,6 +2,16 @@
 Terminal Based single player number guessing game. 
 
 
+# Project Description:
+. This the number guessing game project, with the added feature of users being able replay the game
+. The code consists of three functions, main(), number_guessing_game(), and end_game().
+. The main function introduces that game, and calls the other 2 functions
+. The nunmber_guessing_game function runs the user through the game, until they enter the correct number generated using random.randint(1,100)
+. In the number_guessing game function, input is also validated, preventing the code from running into errors due to invalid input
+. The end_game function checks user input when asked if they want to play again. It returns true if they want to play again, False otherwise
+. At the very end, the program ends, leaving a thank you message for the user. 
+
+
 # Instructions: 
 1. First, load the game file into the terminal using the cd command
 2. Run the python file, which will call the main function, which controls the 2 game functions
